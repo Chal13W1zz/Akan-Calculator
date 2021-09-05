@@ -12,17 +12,24 @@
 
 <body>
 
-  <div class="content">
+  <div class="position-absolute top-0 start-50 translate-middle-x">
 
-    <div class="card" style="width: 18rem;">
+    <div class="card text-center">
       <img src="assets/img/akan-names.jpg" class="card-img-top" alt="Akan Names">
       <div class="card-body">
         <h5 class="card-title">Akan Name Calculator</h5>
-        
+
+        <div class="input-group">
+          <span class="input-group-text">Name</span>
+          <input type="text" aria-label="First name" class="form-control">
+        </div>
+
+        <input type="submit" value="Generate" class="btn btn-primary" onclick="generate(); return false"/>
       </div>
     </div>
 
   </div>
+
 
 </body>
 
