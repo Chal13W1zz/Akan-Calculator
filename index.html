@@ -6,19 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/index.css">
   <title>Akan Name Calculator</title>
 </head>
 
 <body>
 
-  <div class="position-absolute top-0 start-50 translate-middle-x">
 
+    <nav class="navbar sticky navbar-light bg-dark" style="height: 60px;">
+      <div class="container-fluid">
+        <img class="position-absolute top-100 start-50 translate-middle" src="assets/img/logo.png" alt="site logo" width="200px">
+      </div>
+    </nav>
+
+    <center><h1>Akan Name Generator</h1></center>
+    <p class="desc">In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on which she/he was born.
+
+      Enter your birthdate and gender below to read and hear your day name in Ashanti Twi, a dialect of Akan and the most widely spoken language in Ghana:</p>
+  
+
+  <div class="position-absolute top-50 start-50 translate-middle-x">
     <div class="card text-center">
-      <img src="assets/img/akan-names.jpg" class="card-img-top" alt="Akan Names">
+      <img src="assets/img/akan-names.jpg" class="card-img-top" alt="Akan Names" height="350px">
       <div class="card-body">
         <h5 class="card-title">Akan Name Calculator</h5>
 
-
+        
 
 
         <form class="row g-3 needs-validation" novalidate>
@@ -250,7 +263,7 @@
           </div>
 
           <div class="col-12">
-            <button class="btn btn-primary" type="submit" id="generate">Submit form</button>
+            <button class="btn btn-primary" type="submit" id="generate">Generate Name</button>
           </div>
         </form>
 
@@ -261,8 +274,10 @@
   </div>
 
 
+
+  <script src="assets/js/main.js"></script>
 </body>
 
-<script src="assets/js/main.js"></script>
+
 
 </html>
