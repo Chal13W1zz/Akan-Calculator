@@ -11,10 +11,22 @@ p {
     text-align: center;
 }
 
-.navbar {
+.top {
     margin-bottom: 30px;
 }
 
 .img.card-img-top {
     padding-top: 500px;
+}
+
+.card-body{
+    padding-bottom: 100px;
+}
+
+#bt {
+    color: blue;
+}
+
+.icons {
+    color: red;
 }
