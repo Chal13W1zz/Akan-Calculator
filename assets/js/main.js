@@ -1,6 +1,5 @@
 //function call on generate button click
-document.getElementById('generate').onclick = function generate(e) {
-    e.preventDefault();
+document.getElementById('generate').onclick = function generate() {
 
 
     // Example starter JavaScript for disabling form submissions if there are invalid fields
